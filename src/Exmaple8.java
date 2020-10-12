@@ -12,5 +12,8 @@ class Example8 {
         if (age >= 18) {
             System.out.println("You have the legal age");
         }
+        if (age < 18) {
+            System.out.println("You are under legal age");
+        }
     }
 }
